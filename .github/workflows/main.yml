@@ -17,4 +17,4 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: ap-south-1
           function_name: test_lambda1
-          source: example/index.js
+          source: index.js
