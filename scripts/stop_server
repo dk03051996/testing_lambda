@@ -3,6 +3,6 @@
 #if [[ -n  $isExistApp ]]; then
     service httpd stop        
 #fi
-sudo service httpd stop
-sudo systemctl stop nginx
+#service httpd stop
+systemctl stop nginx
 
